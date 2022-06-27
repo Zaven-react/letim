@@ -1,20 +1,13 @@
-import './App.css';
+
+import { Button } from '@material-ui/core';
 import React from 'react';
-import { Button } from '@mui/material';
+
+
+
 
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-       
-        <p>
-        <Button color="primary">Hello World</Button>;
-        </p>
-       
-      </header>
-    </div>
-  );
+  return <Button color="primary">Hello World</Button>;
 }
 
 export default App;

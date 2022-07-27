@@ -8,7 +8,7 @@ import ListItem from '@material-ui/core/ListItem';
 const useStyles = makeStyles({
   root: {
     textAlign: "center",
-    marginTop:"100px",
+    marginTop:"80px",
     fontFamily:"cursive",  
      position: props => props.position,
     
